@@ -1,0 +1,45 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+/* Header */
+header {
+  height: 60px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h4 {
+  margin-right: 20px;
+  color: white;
+  display: inline-block;
+}
+
+/* Main Container */
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: space-between;
+}
+/* Each Elements */
+.cart {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: 2px solid black;
+  max-width: 270px;
+}
+img {
+  margin-bottom: 7px;
+}
+span{
+  
+}
